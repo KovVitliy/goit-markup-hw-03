@@ -65,23 +65,6 @@ body {
   font-style: normal;
 }
 
-.hero-button {
-  cursor: pointer;
-  font-family: inherit;
-  color: #fff;
-  background: #4d5ae5;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  margin-bottom: 188px;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
-  color: #404bbf;
-}
-
 .title {
   color: #2e2f42;
   text-align: center;
@@ -90,6 +73,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 /* === PAGE HEADER === */
@@ -163,7 +147,7 @@ body {
 
 .addres-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .hero-container {
@@ -191,17 +175,41 @@ body {
   margin-left: auto;
 }
 
+.hero-button {
+  cursor: pointer;
+  font-family: inherit;
+  display: block; 
+  color: #fff;
+  background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 188px;
+  min-height: 56px;
+  width: 169px;
+  border: none; 
+  border-radius: 4px;
+  margin: auto; 
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+  color: #404bbf;
+}
+
+
 /* === ADVANTAGES === */
 
 .advantages {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #fff;
 }
 
 .advantages-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .advantages-item {
@@ -229,6 +237,8 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .employee-list {
@@ -248,6 +258,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px; 
 }
 
 .employee-proffession {
@@ -264,6 +275,8 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-list {
