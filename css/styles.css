@@ -165,8 +165,7 @@ body {
 .main-title {
   max-width: 496px;
   color: #fff;
-  padding-top: 188px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -298,8 +297,7 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc; 
   border-top: none; 
-  margin-bottom: 8px;
-}
+  }
 
 .portfolio-title {
   color: #2e2f42;
@@ -336,9 +334,9 @@ body {
   padding-bottom: 100px;
 }
 
-.footer-container {
+/* .footer-container {
   padding-top: 60px;
-}
+} */
 .footer-logo {
   display: inline-block; 
   margin-bottom: 16px;
@@ -355,5 +353,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  padding-bottom: 100px;
-}
+  }
